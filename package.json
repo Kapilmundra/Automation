@@ -1,0 +1,18 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "testcafe": "^1.18.6",
+    "testcafe-reporter-html": "^1.4.6",
+    "typescript": "^4.6.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "testcafe chrome test.ts --reporter html:output-files/satvaCartReport.html --video output-files/satvaCart-videos --video-options failedOnly=true"
+  },
+  "author": "",
+  "license": "ISC"
+}
